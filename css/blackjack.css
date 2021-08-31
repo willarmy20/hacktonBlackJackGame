@@ -21,7 +21,7 @@ body * {
   margin: 0 auto 10px;
   height: 10px;
   font-size: 24px;
-  color: rgb(123, 205, 103);
+  color: white;
 }
 .message-box.error {
   color: rgb(164, 9, 9)
