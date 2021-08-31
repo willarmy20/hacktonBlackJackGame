@@ -1,4 +1,6 @@
 # <p align="center"> BlackJack</p>
+<p align="center"><a href="https://blackjackgame2021.netlify.app">Live Demo</a></p>
+
 
 <p align ="center" >
 <img width="750" alt="landing page" src="/images/landingPage.png">
