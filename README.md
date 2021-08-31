@@ -5,7 +5,7 @@
 <img width="750" alt="game play" src="/images/blackjack.png">
 </p>
 
-Welcome to Blackjack!  This is a game where the player attempts to beat the dealer by getting a count as close to 21 as possible, without going over 21. An ace is worth 1 or 11. Face cards are 10 and any other card is its value.
+Welcome to Blackjack!  This is a game where the player attempts to beat the dealer by getting a count as close to 21 as possible, without going over 21. An ace is worth 1 or 11. Face cards are 10 and any other card is its value. When you hit the deal button you as the player will get two cards and the dealer also. If your score is blow 21 and you think you can get more cards without going over press the Hit button. You will receive one more card. If you are happy with your card then hit stands. The dealer will go and you either win or lose. Good Luck!
 
 
 <p align="center"> Languages Used and Technology 💻</p><hr>

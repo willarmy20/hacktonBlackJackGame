@@ -24,21 +24,28 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 4%;
-    margin-left: 30%;
-    margin-right: 30%;
+    padding-top: 3%;
+    margin-left: 2%;
+    margin-right: 2%;  
 }
 
 .play-box{
     text-align: center;
     background-color:#2b2c29;
-    padding: 10%;
+    padding: 3%;
     opacity: 90%;
+}
+.devTeam{
+    text-align: center;
+    background-color:#2b2c29;
+    padding: 3%;
+    opacity: 90%;
+    margin-left: 3%;
 }
 .enter-game{
     background-color:#2c1604;
     color: whitesmoke;
-    width: 40%;
+    width: 20%;
     height: 30%;
     border: 1px solid #fcf8e4;
 }
