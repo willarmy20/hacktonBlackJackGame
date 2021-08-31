@@ -1,7 +1,8 @@
 # <p align="center"> BlackJack</p>
 
 <p align ="center" >
-<img width="750" alt="Screen Shot 2021-07-27 at 12 06 39 PM" src="/images/blackjack.png">
+<img width="750" alt="landing page" src="/images/landingPage.png">
+<img width="750" alt="game play" src="/images/blackjack.png">
 </p>
 
 Welcome to Blackjack!  This is a game where the player attempts to beat the dealer by getting a count as close to 21 as possible, without going over 21. An ace is worth 1 or 11. Face cards are 10 and any other card is its value.
