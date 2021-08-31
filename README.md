@@ -20,10 +20,9 @@ Welcome to Blackjack!  This is a game where the player attempts to beat the deal
 
  <p align="center">Code Snipets</p><hr>
 
- <p align="center">This is the a snipet of the code used to call the api to be able to get the data for the weather. </p>
+ <p align="center">This is the a snipet of the code used check if the dealer has busted or who has the higer hand at the end of the game.
 
  ```jsx
-    //checks to see if dealer has busted or who has the higher hand at end of game, calls message
 function isWinner(playerPoints,dealerPoints){
   
   if (dealerPoints>21){
