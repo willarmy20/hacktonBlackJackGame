@@ -1,7 +1,7 @@
 # <p align="center"> BlackJack</p>
 
 <p align ="center" >
-<img width="750" alt="Screen Shot 2021-07-27 at 12 06 39 PM" src="/images/weather.png">
+<img width="750" alt="Screen Shot 2021-07-27 at 12 06 39 PM" src="/images/blackjack.png">
 </p>
 
 Welcome to Blackjack!  This is a game where the player attempts to beat the dealer by getting a count as close to 21 as possible, without going over 21. An ace is worth 1 or 11. Face cards are 10 and any other card is its value.
@@ -23,16 +23,42 @@ Welcome to Blackjack!  This is a game where the player attempts to beat the deal
  <p align="center">This is the a snipet of the code used to call the api to be able to get the data for the weather. </p>
 
  ```jsx
- const input = document.querySelector('#city');
-const button = document.getElementById('submit').addEventListener('click', userInput);
+    //checks to see if dealer has busted or who has the higher hand at end of game, calls message
+function isWinner(playerPoints,dealerPoints){
+  
+  if (dealerPoints>21){
+    message("Dealer Bust. Player Wins!");
+    disableB();
+  }
+  else if (playerPoints > dealerPoints){
+    message("Player Wins!");
+    disableB();
+  }
+  else if (dealerPoints > playerPoints){
+    message("Dealer Wins!");
+    disableB();
+  } else if (dealerPoints === playerPoints && dealerPoints > 0){ 
+    message("Its a Tie");
+    disableB();
+  }
 
-async function userInput(){
-const weatherURL = `https://api.openweathermap.org/data/2.5/forecast?q=${input.value}&appid=${APIKEY}`;
-const weatherData = await fetch (weatherURL);
-const weatherJson = await weatherData.json();
+}
 
  ```
 
+## <p align="center"> MVP</p>
+<p aling="center">
+-Your game has to be 2D. Isometric view is OK as long as there are only 2 dimensions that your character can move in.
+-Your game must have a clear win condition. For example, in some games, beating the boss monster.
+-Your game must have a clear lose condition. For example, in some games, losing all your lives.
+-Your game's frontend must be built in JavaScript or Typescript.
+-You can only use packages that you can download off NPM, and you cannot use professional game engines like Unreal, Unity or Godot. (If in doubt, ask)
+-Your application must have a clear landing page. See the Hiring Hackathon Guide for more info.
+</p>
+
+## <p align="center"> Stretch Goals (Future)</p>
+- Be able to add more players
+- Have the cards move in a way that it looks like they are atucally being dealt.
 
 ## <p align="center"> Developer team</p>
 
