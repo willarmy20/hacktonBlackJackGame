@@ -2,39 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blackjack</title>
-    <link rel="stylesheet" href="/css/blackjack.css">
+    <link rel="stylesheet" href="/css/landingpage.css">
 </head>
 <body>
-  <header>
-    <img src="https://www.firstcomicsnews.com/wp-content/uploads/2019/12/Blackjack-logo-600x257.png" alt="">
-  </header>
-<div class="message-box" id="messages"></div>
-    <div class="table">
-    <div class="player">
-      <label class="player-name">Dealer: 
-        <h4 id="dealer-points" class="points"></h4>
-      </label>
-      <div id="dealer-hand" class="hand">
-        <!-- Dealer Hand -->
-      </div>
-    </div>
-    <div class="player">
-      <label class="player-name">Player: 
-        <span id="player-points" class="points"></span>
-      </label>
-      <div id="player-hand" class="hand">
-        <!-- Player Hand -->
-      </div>
-    </div>
-    <div class="buttons">
-      <button id="deal-button" type="button">Deal</button>
-      <button id="hit-button" type="button">Hit</button>
-      <button id="stand-button" type="button">Stand</button>
-    </div>
-  </div>
-
+        <img class="logo" src="https://www.firstcomicsnews.com/wp-content/uploads/2019/12/Blackjack-logo-600x257.png" alt=>
+        <div class="outterbox">
+            <div class="play-box">
+                <p> Welcome to Blackjack!  This is a game where the player attempts to beat the dealer by getting a count as close to 21 as possible, without going over 21. An ace is worth 1 or 11. Face cards are 10 and any other card is its value. When you hit the deal button you as the player will get two cards and the dealer also. If your score is blow 21 and you think you can get more cards without going over press the Hit button. You will receive one more card. If you are happy with your card then hit stands. The dealer will go and you either win or lose. Good Luck
+                </p>
+                <a href="/game.html"><button class="enter-game">Play</button></a>
+            </div>
+            <div class="devTeam">
+                <img src="/images/Q.png">
+                <p> 
+                    Hi im LaQuinta, this is my first every hackaton. I created Blackjack with no framwork it is just HTML, CSS, and Javascript.
+                    I hope you enjoy it.
+                </p>
+            </div>
+        </div>
 </body>
-<script src="/blackjackGame/scripts/main.js"></script>
 </html>
